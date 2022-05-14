@@ -1,0 +1,58 @@
+.wrapper {
+	position: relative;
+}
+
+.button {
+	position: relative;
+	width: 32px;
+	height: 24px;
+}
+
+.button span {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	background: #fff;
+	height: 3px;
+}
+
+.button::after,
+.button::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	height: 2px;
+}
+
+.button::after {
+	bottom: 0;
+}
+
+.button::before {
+	top: 0;
+}
+
+.menu {
+	position: absolute;
+	margin-top: 8px;
+	width: max-content;
+	top: 100%;
+	right: 0;
+	border-radius: var(--border-radius-base);
+	transition: all var(--transition-base);
+	opacity: 0;
+	visibility: hidden;
+	z-index: 999;
+	transform: scale(0.9);
+	box-shadow: var(--box-shadow-base);
+}
+
+.menu.active {
+	opacity: 1;
+	transform: scale(1);
+	visibility: visible;
+}

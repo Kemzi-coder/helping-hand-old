@@ -1,0 +1,10 @@
+.link {
+	color: var(--color-secondary);
+	transition: all var(--transition-base);
+	border-bottom: 1px solid transparent;
+}
+
+.link:hover {
+	color: var(--color-secondary-lighter);
+	border-color: var(--color-secondary-lighter);
+}

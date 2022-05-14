@@ -1,0 +1,10 @@
+.fullscreen {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
+.default {
+	padding-bottom: 40px;
+}

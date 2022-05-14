@@ -1,0 +1,30 @@
+.title {
+	font-size: 24px;
+	font-weight: 600;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.up {
+	transform: rotate(180deg);
+}
+
+.spoiler {
+	width: 100%;
+}
+
+.spoiler.active .header {
+	margin-bottom: 12px;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	column-gap: 16px;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid var(--color-secondary-lighter);
+	padding-bottom: 6px;
+	color: var(--color-text-light);
+}

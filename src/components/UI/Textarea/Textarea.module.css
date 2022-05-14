@@ -1,0 +1,19 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	border-radius: var(--border-radius-base);
+}
+
+.textarea {
+	resize: none;
+	padding: 10px 20px;
+	background: var(--color-text-light);
+	border-radius: var(--border-radius-base);
+	border: 2px solid transparent;
+	width: 100%;
+	color: var(--color-text-dark);
+}
+
+.textarea.invalid {
+	border-color: var(--color-danger);
+}

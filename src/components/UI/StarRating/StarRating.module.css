@@ -1,0 +1,7 @@
+.on {
+	color: var(--color-secondary-lighter);
+}
+
+.off {
+	color: var(--color-text-light);
+}

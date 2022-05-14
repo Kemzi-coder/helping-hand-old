@@ -1,0 +1,44 @@
+.option {
+	position: relative;
+	width: 100%;
+	padding: 10px 30px;
+	background: var(--color-text-light);
+	transition: all var(--transition-base);
+	border: 1px solid var(--color-secondary-lighter);
+	display: block;
+	text-align: left;
+}
+
+.option:disabled {
+	color: var(--color-text-dark);
+	cursor: auto;
+}
+
+.option:not(:first-child) {
+	border-top: none;
+}
+
+.option:last-child {
+	border-bottom-left-radius: var(--border-radius-base);
+	border-bottom-right-radius: var(--border-radius-base);
+}
+
+.option:hover {
+	background: var(--color-secondary-lighter);
+	color: var(--color-text-light);
+}
+
+.icon path {
+	transition: fill var(--transition-base);
+}
+
+.option:hover .icon path {
+	fill: var(--color-text-light);
+}
+
+.icon {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}

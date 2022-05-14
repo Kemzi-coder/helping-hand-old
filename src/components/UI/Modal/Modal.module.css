@@ -1,0 +1,35 @@
+.modal {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+	transition: all var(--transition-base);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal.active .content {
+	transform: scale(1);
+}
+
+.modal.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+.content {
+	padding: 28px;
+	background: var(--color-primary-lighter);
+	border-radius: var(--border-radius-base);
+	min-width: 250px;
+	max-width: 400px;
+	width: 100%;
+	transform: scale(0.9);
+	transition: transform var(--transition-base);
+}

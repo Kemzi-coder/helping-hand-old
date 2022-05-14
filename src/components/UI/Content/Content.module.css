@@ -1,0 +1,6 @@
+.content {
+	background: var(--color-primary-lighter);
+	border-radius: var(--border-radius-base);
+	padding: 28px;
+	overflow: hidden;
+}
