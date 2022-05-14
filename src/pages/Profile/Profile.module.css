@@ -1,0 +1,10 @@
+.loader {
+	margin: 0 auto;
+}
+
+@media (max-width: 1032px) {
+	.content {
+		padding: 20px;
+	}
+}
+

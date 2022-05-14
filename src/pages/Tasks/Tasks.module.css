@@ -1,0 +1,49 @@
+.inner {
+	display: grid;
+	grid-template-columns: minmax(248px, 1fr) 3fr minmax(248px, 1fr);
+	grid-template-rows: minmax(calc(100vh - 163px), auto);
+	grid-column-gap: 28px;
+}
+
+.last {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.main {
+	position: relative;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.loader {
+	margin: 0 auto;
+}
+
+.button {
+	margin: 16px auto 0;
+}
+
+@media (max-width: 1472px) {
+	.inner {
+		grid-column-gap: 20px;
+	}
+
+	.sidebar {
+		padding: 20px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.inner {
+		display: block;
+	}
+}
+
+
+

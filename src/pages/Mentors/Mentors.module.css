@@ -1,0 +1,17 @@
+.container {
+	max-width: 500px;
+}
+
+.button {
+	margin: 16px auto 0 auto;
+}
+
+.wrapper {
+	padding: 28px;
+	background: var(--color-primary-lighter);
+	border-radius: var(--border-radius-base);
+}
+
+.loader {
+	margin: 0 auto;
+}
