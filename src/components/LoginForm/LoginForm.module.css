@@ -1,0 +1,28 @@
+.input {
+	margin-bottom: 28px;
+}
+
+.login-btn {
+	margin-bottom: 8px;
+}
+
+.quick-btn {
+	margin-bottom: 28px;
+}
+
+.login-btn,
+.quick-btn {
+	width: 100%;
+}
+
+@media (max-width: 480px) {
+	.form {
+		width: 100%;
+	}
+}
+
+@media (max-width: 380px) {
+	.form {
+		width: 100%;
+	}
+}
