@@ -1,0 +1,15 @@
+:root {
+	--font-family-base: 'Open Sans', sans-serif;
+	--font-size-base: 18px;
+	--color-primary: #12232E;
+	--color-primary-lighter: #203647;
+	--color-secondary: #007CC7;
+	--color-secondary-lighter: #4DA8DA;
+	--color-text-light: #EEFBFB;
+	--color-text-dark: #12232E;
+	--border-radius-base: 8px;
+	--transition-time: .3s;
+	--transition-base: var(--transition-time) ease;
+	--color-danger: #F45B69;
+	--box-shadow-base: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+}
