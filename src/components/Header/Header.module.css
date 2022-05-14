@@ -1,0 +1,41 @@
+.header {
+	position: relative;
+	padding: 40px 0;
+}
+
+.inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	margin-right: 80px;
+}
+
+@media (max-width: 1024px) {
+	.logo {
+		margin-right: 40px;
+	}
+}
+
+@media (max-width: 640px) {
+	.inner {
+		margin-bottom: 20px;
+	}
+
+	.logo {
+		margin-right: 20px;
+	}
+
+	.button {
+		width: 100%;
+		margin: 0 auto;
+	}
+}

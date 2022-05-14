@@ -1,0 +1,39 @@
+.form {
+	width: 100%;
+	max-width: 400px;
+}
+
+.fields {
+	margin-bottom: 24px;
+}
+
+.field:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.button {
+	width: 100%;
+}
+
+.dropdown {
+	width: 100%;
+}
+
+.loader-wrapper {
+	border: 1px solid var(--color-secondary-lighter);
+	border-radius: 0 0 var(--border-radius-base) var(--border-radius-base);
+	background: var(--color-text-light);
+}
+
+.loader {
+	width: 52px;
+	height: 52px;
+	margin: 0 auto;
+}
+
+.loader div {
+	border-color: var(--color-secondary-lighter) transparent transparent transparent;
+	width: 36px;
+	height: 36px;
+	border-width: 6px;
+}
