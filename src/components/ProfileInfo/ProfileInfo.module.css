@@ -1,0 +1,21 @@
+.task {
+	background: var(--color-primary);
+}
+
+.task:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+	.item h3 {
+		font-size: 20px;
+	}
+}
+
+.loader {
+	margin: 0 auto;
+}

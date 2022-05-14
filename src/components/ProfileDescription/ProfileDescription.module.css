@@ -1,0 +1,39 @@
+.wrapper {
+	margin-bottom: 40px;
+}
+
+.description {
+	word-break: break-all;
+}
+
+.title {
+	margin-bottom: 16px;
+	border-bottom: 1px solid var(--color-secondary-lighter);
+	padding-bottom: 12px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.textarea {
+	background-color: transparent;
+	resize: none;
+	width: 100%;
+	color: var(--color-text-light);
+	border: none;
+	padding: 0;
+	outline: none;
+}
+
+@media (max-width: 480px) {
+	.wrapper {
+		margin-bottom: 28px;
+	}
+
+	.title {
+		font-size: 20px;
+	}
+}
